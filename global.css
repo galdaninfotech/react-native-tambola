@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  -- primary: ;
+  -- secondary: ;
+  --accent: #F4D35E;
+  --light-gray: #F5F7FA;
+  --medium-gray:#CCD1D9;
+  #EDF7F6, #99EDC3, #297373, #D3BDB0, #B48E92, #216869, #1F2421, #FDFD96, #48A9A6, #3C493F, #A0D468, #8067B7
+  #483C32, #119DA4, #EAF0CE, #0B7A75, #DCEDFF, #CB4154, #129490, #D1FAFF, #9CAF88, #037171, #E8E1EF
+  #30D5C8, #037171, #3A4E48, #D8BCAB, #0E9594, #562C2C, #C0C0C0, #387D7A, #E15554, #438F85, #7ABFB6
+  #E6E6FA, #56A3A6, #484538, #BEBEBE, #0F7173, #171A21, #B0E0E6, #307473, #7A82AB, #BFBDC1, #48CFAD
+
+  'azure',
+  'honeydew',
+  'lavenderblush',
+  'ivory',
+  'aliceblue',
+  'seashell'
+
+*/
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+  }
+
+  .dark:root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}

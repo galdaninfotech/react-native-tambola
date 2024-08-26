@@ -1,0 +1,9 @@
+{"name": "Quick Five", "description": "Quick Five"}
+{"name": "Lucky Seven", "description": "Lucky Seven"}
+{"name": "Top Line", "description": "Top Line"}
+{"name": "Middle Line", "description": "Middle Line"}
+{"name": "Bottom Line", "description": "Bottom Line"}
+{"name": "Ticket Corner", "description": "line1 = first & last, line3 = first & last"}
+{"name": "Kings Corner", "description": "First number of all three rows"}
+{"name": "Queens Corner", "description": "Last number of all three rows"}
+{"name": "Full House", "description": "Full House"}

@@ -1,0 +1,2 @@
+{"name": "Daily Game One", "start": "2022-10-31T12:00:00Z", "end": "2022-10-31T12:00:00Z", "ticket_price": 50, "active": false, "status": "End", "comment": "Some comments here.."}
+{"name": "Daily Game Two", "start": "2022-10-31T12:00:00Z", "end": "2022-10-31T12:00:00Z", "ticket_price": 100, "active": true, "status": "Paused","comment": "Some comments here.."}
